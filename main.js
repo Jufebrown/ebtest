@@ -71,4 +71,12 @@ for (let i = 0; i < dupArr.length; i++) {
 // use lodash uniqWith to filter out duplicate results
 let resultArr = _.uniqWith(dupArr, _.isEqual);
 
-console.log('duplicate ids:', resultArr);
+// get the output div
+const outputDiv = document.querySelector(".output");
+
+let outputString = "";
+for (let i = 0; i < resultArr.length; i++) {
+  outputString += `<p>id: ${resultArr[i][0]}, duplicate: ${resultArr[i][1]}`;
+}
+
+outputDiv.innerHTML = outputString;
