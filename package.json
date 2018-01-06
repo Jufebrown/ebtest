@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jufebrown/ebtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jufebrown/ebtest/issues"
+  },
+  "homepage": "https://github.com/Jufebrown/ebtest#readme",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
