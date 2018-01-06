@@ -1,7 +1,5 @@
 "use strict";
 
-console.log('hello')
-
 var data = [
   "1337,AIA Miami Center for Architecture & Design,100 NE 1st Ave",
   "134,123 Burger Shot Beer,738 10th Ave",
